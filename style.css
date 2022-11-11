@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body{
+    background-color: #0D1A2D;
+}
+
+.quadro2{
+    background-color: #132740;
+    width: 280px;
+    height: 500px;
+    border-radius: 30px;
+    border: 15px solid;
+    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0C1729;
+}
+
+.equilibrium{
+    width: 240px;
+    border-radius: 10px;
+    margin-left: 21px;
+    margin-top: 20px;
+}
+
+h3{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin-left: 21px;
+    font-size: 17px;
+}
+
+.texto{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin-left: 21px;
+    font-size: 15px;
+}
+
+.textoesq{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+}
+
+.textodir{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.flex-container1{
+    display: flex;
+}
+
+.icon-ethereum{
+    width: 10px;
+    height: 20px;
+    margin-top: 15px;
+    padding-left: 21px;
+    padding-right: 5px;
+}
+
+.relogio{
+    width: 10px;
+    height: 20px;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+.linha{
+    border-top: 1px solid hsl(215, 51%, 70%);
+    margin-left: 21px;
+    margin-right: 21px;
+
+}
+
+.flex-container2{
+    display: flex;
+}
+
+
+.avatar{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    padding-left: 21px;
+    padding-right: 5px;
+    border-color: white;
+}
+
+.identificacao{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 12px;
+    margin-top: 19px;
+}
+
+.identificacao:hover{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    margin-top: 19px;
+}
+
+h3:hover{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    margin-left: 21px;
+    font-size: 17px;
+}
+
+    /* max-device width*/
+    @media screen and (max-device-width: 375px) {
+        body{
+            background-color: #0D1A2D;
+        }
+        
+        .quadro2{
+            background-color: #132740;
+            width: 280px;
+            height: 500px;
+            border-radius: 30px;
+            border: 15px solid;
+            margin-top: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            color: #0C1729;
+        }
+        
+        .equilibrium{
+            width: 240px;
+            border-radius: 10px;
+            margin-left: 21px;
+            margin-top: 20px;
+        }
+        
+        h3{
+            font-family: 'Outfit', sans-serif;
+            color: white;
+            margin-left: 21px;
+            font-size: 17px;
+        }
+        
+        .texto{
+            font-family: 'Outfit', sans-serif;
+            color: hsl(215, 51%, 70%);
+            margin-left: 21px;
+            font-size: 15px;
+        }
+        
+        .textoesq{
+            font-family: 'Outfit', sans-serif;
+            color: hsl(178, 100%, 50%);
+            font-size: 15px;
+        }
+        
+        .textodir{
+            font-family: 'Outfit', sans-serif;
+            color: hsl(215, 51%, 70%);
+            font-size: 15px;
+        }
+        
+        .flex-container1{
+            display: flex;
+        }
+        
+        .icon-ethereum{
+            width: 10px;
+            height: 20px;
+            margin-top: 15px;
+            padding-left: 21px;
+            padding-right: 5px;
+        }
+        
+        .relogio{
+            width: 10px;
+            height: 20px;
+            margin-top: 15px;
+            padding-left: 50px;
+            padding-right: 5px;
+        }
+        
+        .linha{
+            border-top: 1px solid hsl(215, 51%, 70%);
+            margin-left: 21px;
+            margin-right: 21px;
+        
+        }
+        
+        .flex-container2{
+            display: flex;
+        }
+        
+        
+        .avatar{
+            width: 20px;
+            height: 20px;
+            margin-top: 15px;
+            padding-left: 21px;
+            padding-right: 5px;
+            border-color: white;
+        }
+        
+        .identificacao{
+            font-family: 'Outfit', sans-serif;
+            color: white;
+            font-size: 12px;
+            margin-top: 19px;
+        }
+    }
